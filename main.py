@@ -16,7 +16,7 @@ def clock():
     clock_time = time.strftime('%H:%M:%S %p')
     curr_time.config(text = clock_time)
     curr_time.after(1000,clock)
-curr_time =Label(window,width = 10, font =('broadway', 30, 'bold'), text = '', fg = 'white' ,bg ='#5B5D74')
+curr_time =Label(window,width = 10, font =('broadway', 30, 'bold'), text = '', fg = '#70201F' ,bg ='#5B5D74')
 curr_time.place(x = 60 , y = 10)
 clock()
 
